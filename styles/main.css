@@ -1,0 +1,49 @@
+body {
+  position: relative;
+}
+
+.maria-logo {
+  background-image: linear-gradient(pink, white);
+  height: 30vh;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.my-navbar-sticky {
+  background-color: rgb(209, 206, 206);
+}
+
+main .container-3-pics {
+  background-color: rgb(250, 216, 222);
+}
+
+.container-3-pics h5 {
+  font-weight: bold;
+}
+
+main h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(
+    rgb(250, 216, 222),
+    white,
+    rgb(250, 216, 222)
+  );
+}
+
+.container-carousel {
+  background-image: linear-gradient(rgb(250, 216, 222), white);
+}
+
+footer {
+  background-color: rgb(209, 206, 206);
+  text-shadow: 3px 3px 5px rgb(204, 83, 104);
+}
+
+footer .row .col-3:hover {
+  color: red;
+}
